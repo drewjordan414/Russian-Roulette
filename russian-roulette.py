@@ -24,7 +24,10 @@ if option.lower() == 'y':
         else: 
             print("Goodbye")
             break
-
+elif option.lower() == 'n':
+    print("Goodbye")
+else:
+    print("Invalid option")
     
         
 
