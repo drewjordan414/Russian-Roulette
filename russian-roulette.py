@@ -17,7 +17,7 @@ option = input("Shall we play a game? (y/n): ")
 if option.lower() == 'y':
     guess = input("Pick a number between 1 and 6: ")
     while not guess.isdigit() or not (1 <= int(guess) <= 6):
-        again = input("I am still alive! Whish to play again? (y/n):")
+        again = input("I am still alive! Wish to play again? (y/n):")
         if again.lower() == 'y':
             guess = input("Pick a number between 1 and 6: ")
             play(guess)
